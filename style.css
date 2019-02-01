@@ -1,0 +1,115 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fadeIn{
+    opacity: 0;
+    animation: fade .5s ease-in forwards;
+}
+
+@keyframes fade{
+    to{opacity: 1}
+}
+
+.fadeOut{
+    opacity: 0;
+    animation: fade .5s ease-in forwards;
+}
+
+@keyframes fade{
+    to{opacity: 1}
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+nav{
+    display: flex;
+    background: #2890f1;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    flex:1;
+    margin: 0px;
+}
+
+nav>ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+
+nav>ul li a:hover{
+    background:#fff;
+    color: #131418
+}
+
+
+.right{
+    float: right;
+ 
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #176ebe;
+}
+
+.white{
+    color: #fff;
+
+}
+
+.input{
+    height: 40px;
+    width: 280px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.button{
+    background: gray;
+    color: #131418;
+    padding: 15px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.posts{
+    background: white;
+    padding: 30px;
+    width: 120px;
+   
+text-decoration: none !important;
+list-style-type: none;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+
+a:-webkit-any-link{
+    text-decoration:none !important;
+   
+    }
+
+    .spp{
+        margin: 50px;
+    }
